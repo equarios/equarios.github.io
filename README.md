@@ -1,3 +1,3 @@
 # equarios.github.io
 fixed some bugs
-fix images laypout
+fix images lapout
