@@ -67,9 +67,10 @@
     display: flex;
 }
 
-.srcinput::-webkit-input-placeholder{
+.srcinput::placeholder{
     font-weight: bolder;
-    color: #000;
+    color: black;
+    opacity: 1;
 }
 
 .srcpin{
@@ -400,7 +401,9 @@
 footer{
     display: flex;
     background-color: #ececec;
-    height: 250px; 
+    height: 250px;
+    margin-left: -10px;
+    margin-right: -10px;
   }
 
 .footercolmain{
@@ -431,9 +434,15 @@ footer{
       width: 70%;
     }
 
+    .mainhead{
+      width: 66%;
+    }
+
+
+
   }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 780px) {
     .mainhead {
       order: 1;
       display: flex;
@@ -470,7 +479,7 @@ footer{
     }
 
     .imgcont{
-        margin: 0px 25px 40px 5px;
+        margin: 0px 25px 40px 150px;
     }
 
 
@@ -493,11 +502,17 @@ footer{
     }
 
     .accombar h2{
-        margin-left: 10px;
+      width: 100%;
+        margin-left: 150px;
+    }
+    
+    .fttxt{
+      width: 100%;
+      margin-left: 150px;
     }
 
     .asdimgcont{
-        margin: 0px 25px 40px 40px;
+        margin: 0px 25px 40px 180px;
     }
 
     .asdimgcol{
@@ -507,8 +522,9 @@ footer{
 
     .mostbar{
         border-radius: 0px;
-        width: 100%;
-        margin-left: 0px;
+        margin-left: -10px;
+        margin-right: -10px;
+        
     }
 
     .mosttxt h3{
@@ -516,10 +532,11 @@ footer{
     }
 
     .mosttxt {
-        width: 440px;
+        width: 420px;
         display: inline-flex;
         align-items: center;
         justify-content: space-between;
+        margin-left: 150px;
     }
 
     .mainhead img {
@@ -558,9 +575,15 @@ footer{
         margin: 10px 0 0 10px;
     }
 
+    .actbar h3{
+      margin-left: 150px;
+  }
+
     .actimgcont{
         display: flex;
         flex-direction: column;
+        margin-left: 150px;
+        
     }
 
     .actimgcol {
@@ -625,25 +648,26 @@ footer{
     footer{
         display: flex;
         background-color: #ececec;
-        height: 500px;
+        height: 220px;
     }
         
     .footercolmain{
         display: flex;
-        flex-direction: column;
+        width: 100%;
+        
     }
         
     .footercol{
-        width: 350px;
+        width: 250px;
         line-height: 2;
-        margin-left: 40px;
+        margin-left: 80px;
     }
 
   }
 
 
 
-  @media only screen and (min-width: 350px) and (max-width: 550px){
+  @media only screen and (min-width: 350px) and (max-width: 400px){
 
     .mainhead {
       order: 1;
@@ -726,9 +750,10 @@ footer{
 
     .mostbar{
         border-radius: 0px;
-        width: 100%;
-        margin-left: 0px;
+        margin-left: -10px;
+        margin-right: -10px;
     }
+
 
     .mosttxt h3{
         margin-left: 40px;
@@ -739,6 +764,15 @@ footer{
         display: inline-flex;
         align-items: center;
         justify-content: space-between;
+        margin-left: 0px;
+    }
+
+    .fttxt{
+      margin-left: 0px;
+    }
+
+    .actbar h3{
+      margin-left: 0px;
     }
 
     .mainhead img {
@@ -780,6 +814,7 @@ footer{
     .actimgcont{
         display: flex;
         flex-direction: column;
+        margin-left: 0px;
     }
 
     .actimgcol {
