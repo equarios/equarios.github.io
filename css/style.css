@@ -246,7 +246,7 @@
   }
 
 .imgcol img{
-        width: 220px;
+        width: 214px;
         height: 120px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
@@ -267,7 +267,7 @@
   }
 .asdimgcol img{
     width: 130px;
-    height: 130px;
+    height: 124px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     image-rendering: pixelated;
@@ -358,6 +358,7 @@
     border-radius: 20px;
     height: 400px;
     width: 270px;
+    overflow: hidden;
   }
 
 .actimgcol img{
@@ -385,12 +386,13 @@
     height: 180px;
     width: 270px;
     margin-top: 50px;
+    overflow: hidden;
   }
 
 
 
 .actimgcolm img{
-        width: 270px;
+        width: 268px;
         height: 120px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
@@ -497,7 +499,7 @@ footer{
 
     .imgcol img{
         height: 100px;
-        width: 400px;
+        width: 394px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
@@ -637,7 +639,7 @@ footer{
     
     .actimgcolm img{
         height: 110px;
-        width: 400px;
+        width: 398px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;      
       }
@@ -723,7 +725,7 @@ footer{
 
     .imgcol img{
         height: 75px;
-        width: 300px;
+        width: 295px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
@@ -812,6 +814,14 @@ footer{
         margin-top: 20px;
     }
 
+    .imgaccom p{
+      font-size: 14px;
+    }
+
+    .staricon{
+      font-size: 12px;
+    }
+
     .filcont{
         margin: 10px 0 0 10px;
     }
@@ -868,7 +878,7 @@ footer{
     
     .actimgcolm img{
         height: 110px;
-        width: 300px;
+        width: 298px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;      
       }
