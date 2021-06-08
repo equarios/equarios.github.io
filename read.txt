@@ -1,0 +1,5 @@
+reservia links
+
+github: https://github.com/equarios/equarios.github.io
+
+githubpages: https://equarios.github.io
