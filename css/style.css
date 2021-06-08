@@ -278,6 +278,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    
   }
 
   
@@ -674,7 +675,7 @@ footer{
 
 
 
-  @media only screen and (min-width: 350px) and (max-width: 400px){
+  @media only screen and (max-width: 375px){
 
     .mainhead {
       order: 1;
@@ -712,7 +713,7 @@ footer{
     }
 
     .imgcont{
-        margin: 0px 25px 40px 5px;
+        margin: 0px 25px 0px 0px;
     }
 
 
@@ -721,6 +722,7 @@ footer{
         background-color: white;
         height: 150px;
         width: 300px;
+        
     }
 
     .imgcol img{
@@ -732,19 +734,23 @@ footer{
     
     .accombar{
         background-color: white;
+        
     }
 
     .accombar h2{
         margin-left: 10px;
     }
 
+    
+
     .asdimgcont{
-        margin: 0px 25px 40px 40px;
+        margin: 0px 0px 40px 30px;
     }
 
     .asdimgcol{
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
         width: 320px;
+        
     }
 
     .imgasd {
@@ -757,8 +763,7 @@ footer{
 
     .mostbar{
         border-radius: 0px;
-        margin-left: -10px;
-        margin-right: -10px;
+        width: auto;
     }
 
 
@@ -807,6 +812,7 @@ footer{
 
     .accomflex{
         flex-direction: column;
+        width: auto;
     }
 
     .accombar{
@@ -838,7 +844,8 @@ footer{
         background-color: white;
         border-radius: 20px;
         height: 150px;
-        width: 300px;  
+        width: 300px;
+        justify-content: center; 
       }
     
     .actimgcol img{
@@ -895,6 +902,7 @@ footer{
         display: flex;
         background-color: #ececec;
         height: 500px;
+        width: auto;
     }
         
     .footercolmain{
@@ -909,5 +917,247 @@ footer{
     }
 
 
+
+  }
+
+  @media only screen and (max-width: 360px){
+    .mainhead {
+      order: 1;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0px;
+      position: relative;
+      height: 120px;
+    }
+    .signs {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding-top: 0;
+    }
+    .accom, .act {
+      width: 50%;
+      margin: 0px;
+      text-align: center;
+      bottom: 0px;
+      position: absolute;
+    }
+    .act {
+      border-bottom-color: #ddd;
+      border-bottom-style: solid;
+      right: 0px;
+    }
+
+    .accom {
+      border-bottom-color: #0065fc;
+      border-bottom-style: solid;
+      border-top-style: none;
+      color: #1e90ff;
+      left: 0px;
+    }
+
+    .imgcont{
+        margin: 0px 25px 0px -8px;
+    }
+
+
+    .imgcol{
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+        height: 150px;
+        width: 300px;
+        
+    }
+
+    .imgcol img{
+        height: 75px;
+        width: 295px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .accombar{
+        background-color: white;
+        
+    }
+
+    .accombar h2{
+        margin-left: 10px;
+    }
+
+    
+
+    .asdimgcont{
+        margin: 0px 0px 40px 20px;
+    }
+
+    .asdimgcol{
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+        width: 320px;
+        
+    }
+
+    .imgasd {
+      line-height: 1;
+    }
+
+    .imgasd h4{
+      font-size: 13px;
+    }
+
+    .mostbar{
+        border-radius: 0px;
+        width: auto;
+    }
+
+
+    .mosttxt h3{
+        margin-left: 40px;
+    }
+
+    .mosttxt {
+        width: 330px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+
+    .fttxt{
+      margin-left: 0px;
+    }
+
+    .actbar h3{
+      margin-left: 0px;
+    }
+
+    .mainhead img {
+      position: absolute;
+      top: 5px;
+      left: 10px;
+      padding-top: 0px;
+    }
+    .srcicn{
+        display: inline;
+        padding: 17px;
+        background-color: #0065fc;
+        margin-left: -10px;
+        color: white;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .srcsubtxt{
+        display: none;
+    }
+    .srcbtns{
+        background-color: white;
+    }
+
+    .accomflex{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .accombar{
+        order: 1;
+        margin-top: 20px;
+    }
+
+    .imgaccom p{
+      font-size: 14px;
+    }
+
+    .staricon{
+      font-size: 12px;
+    }
+
+    .filcont{
+        margin: 10px 0 0 10px;
+    }
+
+    .actimgcont{
+        display: flex;
+        flex-direction: column;
+        margin-left: -8px;
+    }
+
+    .actimgcol {
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+        border: white solid 1px;
+        background-color: white;
+        border-radius: 20px;
+        height: 150px;
+        width: 300px;
+        justify-content: center; 
+      }
+    
+    .actimgcol img{
+        height: 110px;
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;   
+      }
+    
+    .actimgcolm{
+        background-color: white;
+        border-radius: 20px;
+        height: 150px;
+        width: 300px;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+        border: white solid 1px;
+        margin-bottom: 180px;
+      }
+
+      .actimgcolm1 {
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+        border: white solid 1px;
+        border-radius: 20px;
+        height: 150px;
+        width: 300px;
+      }
+    
+    .actimgcolm2 {
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+        border: white solid 1px;
+        border-radius: 20px;
+        height: 150px;
+        width: 300px;
+      }
+    
+    
+    
+    .actimgcolm img{
+        height: 110px;
+        width: 298px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;      
+      }
+
+
+    .actimgcont h3{
+        margin-top: 4px;    
+        margin-left: 10px;
+        font-weight: 600;
+    }
+
+
+    footer{
+        display: flex;
+        background-color: #ececec;
+        height: 500px;
+        width: auto;
+    }
+        
+    .footercolmain{
+        display: flex;
+        flex-direction: column;
+    }
+        
+    .footercol{
+        width: 350px;
+        line-height: 2;
+        margin-left: 40px;
+    }
 
   }
